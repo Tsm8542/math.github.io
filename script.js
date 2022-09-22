@@ -15,7 +15,7 @@ function x(){
             t.innerHTML = '<option value="financial">All</option><option value="prof-loss">Profit-loss</option><option value="banks-si">Banks & Simple interest</option><option value="disc-comm">Discount & commission</option><option value="ci">Compound interest</option><option value="f-plan">Financial planning</option>'
             break;
         case 'calculus':
-            t.innerHTML = '<option value="calculus">All</option><option value="func">Functions</option><option value="limit">Limits</option><option value="continuity">Continuity</option><option value="differentiation">Differnetiation</option><option value="integration">Integration</option>'
+            t.innerHTML = '<option value="calculus">All</option><option value="func">Functions</option><option value="limit">Limits</option><option value="continuity">Continuity</option><option value="differentiation">Differentiation</option><option value="integration">Integration</option>'
             break;
         case 'statistics':
             t.innerHTML = '<option value="statistics">All</option><option value="pictographs">Pictographs</option><option value="patterns">Patterns</option><option value="graphs">Graphs</option><option value="stats">Statistics</option><option value="mod">Measures of dispersion</option>'
