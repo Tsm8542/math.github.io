@@ -11,43 +11,77 @@
         background-color: black;
         color: aqua;
     }
-    select{
-        background-color: black;
-        color: aqua;
-        border: 2.5px solid aqua;
+    .menu{
         font-size: x-large;
+        text-align: center;
     }
-    #opt{
-        width: fit-content;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .branch,.topic{
+        display: inline-block;
     }
-    #frame{
+    iframe{
         width: 100%;
         height: 600px;
     }
+    select{
+        text-align: center;
+        background-color: black;
+        color: cyan;
+        font-size: x-large;
+        border: 1px solid red;
+    }
+    select:focus{
+        border: 1px solid yellow;
+    }
     @media only screen and (max-width: 720px) {
-        #frame{
+        iframe{
             width: 100%;
             height: 1150px;
         }
     }
 </style>
 <body>
-    <select name="" id="opt" onchange="c()">
-        <option value="main">Main</option>
-        <option value="basics">Basics</option>
-        <option value="number_systems">Number Systems</option>
-        <option value="geometry">Geometry</option>
-        <option value="algebra">Algebra</option>
-        <option value="financial">Financial</option>
-        <option value="calculus">Calculus</option>
-        <option value="statistics">Statistics</option>
-        <option value="logic">Logic</option>
-        <option value="physics">Physics</option>
-        <option value="other">Others</option>
-    </select>
-    <iframe id="frame" src="main.html" frameborder="0"></iframe>
+    <div class="menu">
+        <div class="branch">
+            <!--label for="branch">Branch:</label-->
+            <select id="branch" onchange="x()">
+                <option value="basics">Basics</option>
+                <option value="ns">Number systems</option>
+                <option value="geometry">Geometry</option>
+                <option value="algebra">Algebra</option>
+                <option value="financial">Financial</option>
+                <option value="calculus">Calculus</option>
+                <option value="statistics">Statistics</option>
+                <option value="logic">Logic</option>
+                <option value="physics">Physics</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        <div class="topic">
+            <!--label for="topic">Topic:</label-->
+            <select id="topic" onchange="z()">
+                <option value="basics">All</option>
+                <option value="counting">Counting</option>
+                <option value="no_names">Number & names</option>
+                <option value="placevalue-expand">Place value & expand</option>
+                <option value="before-after">Before-after</option>
+                <option value="asc-desc">Ascending-Descending</option>
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+                <option value="card-ord">Cardinal-ordinal</option>
+                <option value="compare">comparison</option>
+                <option value="fraction">Fractions</option>
+                <option value="mul-fac">Multiples-Factors</option>
+                <option value="dec-frac">Decimal fractions</option>
+                <option value="divisibility">Divisibility</option>
+                <option value="hcf-lcm">HCF-LCM</option>
+                <option value="ratio">Ratio-proportion</option>
+                <option value="indices">Indices</option>
+                <option value="dir-inv">Direct-inverse proportion</option>
+            </select>
+        </div>
+    </div>
+    <iframe src="Files/main.html" id="frame"></iframe>
 </body>
 </html>
