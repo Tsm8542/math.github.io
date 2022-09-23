@@ -21,7 +21,7 @@ function x(){
             t.innerHTML = '<option value="statistics">All</option><option value="pictographs">Pictographs</option><option value="patterns">Patterns</option><option value="graphs">Graphs</option><option value="stats">Statistics</option><option value="mod">Measures of dispersion</option>'
             break;
         case 'logic':
-            t.innerHTML = '<option value="logic">All</option><option value="probability">Probability</option><option value="m-logic">Mathematical logic</option><option value="p-distribution">Probability distribution</option><option value="b-distribution">Binomial Distibution</option><option value="moi-bt">Method of induction & Binomial Theorem</option>'
+            t.innerHTML = '<option value="logic">All</option><option value="probability">Probability</option><option value="m-logic">Mathematical logic</option><option value="p-distribution">Probability distribution</option><option value="b-distribution">Binomial Distibution</option><option value="moi">Method of induction</option><option value="bt">Binomial Theorem</option>'
             break;
         case 'physics':
             t.innerHTML = '<option value="physics">All</option><option value="vectors">Vectors</option><option value="line-plane">Line & plane</option><option value="differential-eq">Differential equations</option>'
@@ -247,8 +247,11 @@ function z(){
         case 'b-distribution':
             y.src = "Files/b-distribution.html";
             break;
-        case 'moi-bt':
-            y.src = "Files/moi-bt.html";
+        case 'moi':
+            y.src = "Files/moi.html";
+            break;
+        case 'bt':
+            y.src = "Files/bt.html";
             break;
         case 'vectors':
             y.src = "Files/vectors.html";
