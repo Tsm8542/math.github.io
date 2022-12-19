@@ -16,8 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/27.jpg">
-    <img src="Main/28.jpg">
+<script>
+    function x(){
+        for(let i=26;i<=27;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>

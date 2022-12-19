@@ -16,31 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/205.jpg">
-    <img src="Main/206.jpg">
-    <img src="Main/207.jpg">
-    <img src="Main/208.jpg">
-    <img src="Main/209.jpg">
-    <img src="Main/210.jpg">
-    <img src="Main/211.jpg">
-    <img src="Main/212.jpg">
-    <img src="Main/213.jpg">
-    <img src="Main/214.jpg">
-    <img src="Main/215.jpg">
-    <img src="Main/216.jpg">
-    <img src="Main/217.jpg">
-    <img src="Main/218.jpg">
-    <img src="Main/219.jpg">
-    <img src="Main/220.jpg">
-    <img src="Main/221.jpg">
-    <img src="Main/222.jpg">
-    <img src="Main/223.jpg">
-    <img src="Main/224.jpg">
-    <img src="Main/225.jpg">
-    <img src="Main/226.jpg">
-    <img src="Main/227.jpg">
-    <img src="Main/228.jpg">
-    <img src="Main/229.jpg">
+<script>
+    function x(){
+        for(let i=204;i<=228;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>

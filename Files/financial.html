@@ -16,14 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/128.jpg">
-    <img src="Main/129.jpg">
-    <img src="Main/130.jpg">
-    <img src="Main/131.jpg">
-    <img src="Main/132.jpg">
-    <img src="Main/133.jpg">
-    <img src="Main/134.jpg">
-    <img src="Main/135.jpg">
+<script>
+    function x(){
+        for(let i=127;i<=134;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>

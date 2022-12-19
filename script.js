@@ -41,79 +41,79 @@ function z(){
     var y = document.querySelector("#frame");
     switch(n){
         case 'counting':
-            y.src = "Files/12345.html";
+            y.src = "Files/5.html";
             break;
         case 'no_names':
-            y.src = "Files/12345.html";
+            y.src = "Files/5.html";
             break;
         case 'placevalue-expand':
-            y.src = "Files/12345.html";
+            y.src = "Files/5.html";
             break;    
         case 'before-after':
-            y.src = "Files/12345.html";
+            y.src = "Files/5.html";
             break;
         case 'asc-desc':
-            y.src = "Files/5678910.html";
+            y.src = "Files/56.html";
             break;
         case 'add':
-            y.src = "Files/5678910.html";
+            y.src = "Files/6.html";
             break;
         case 'subtract':
-            y.src = "Files/5678910.html";
+            y.src = "Files/6.html";
             break;
         case 'multiply':
-            y.src = "Files/5678910.html";
+            y.src = "Files/6.html";
             break;
         case 'divide':
-            y.src = "Files/5678910.html";
+            y.src = "Files/6.html";
             break;
         case 'card-ord':
-            y.src = "Files/5678910.html";
+            y.src = "Files/6.html";
             break;
         case 'compare':
-            y.src = "Files/comparison.html";
+            y.src = "Files/7.html";
             break;
         case 'fraction':
-            y.src = "Files/fractions.html";
+            y.src = "Files/789.html";
             break;
         case 'mul-fac':
-            y.src = "Files/mfpc.html";
+            y.src = "Files/10.html";
             break;
         case 'dec-frac':
-            y.src = "Files/decimalfractions.html";
+            y.src = "Files/11.html";
             break;
         case 'divisibility':
-            y.src = "Files/divisibility.html";
+            y.src = "Files/12.html";
             break;
         case 'hcf-lcm':
-            y.src = "Files/hcf-lcm.html";
+            y.src = "Files/1213.html";
             break;
         case 'ratio':
-            y.src = "Files/ratio-proportion.html";
+            y.src = "Files/1415.html";
             break;
         case 'indices':
-            y.src = "Files/indices.html";
+            y.src = "Files/15.html";
             break;
         case 'dir-inv':
-            y.src = "Files/direct-inverse.html";
+            y.src = "Files/16.html";
             break;
         case 'decimal':
-            y.src = "Files/decimalns.html";
+            y.src = "Files/decimalnumbersystem.html";
             break;
         case 'binary':
-            y.src = "Files/binaryns.html";
+            y.src = "Files/binarynumbersystem.html";
             break;
         case 'hexdecimal':
-            y.src = "Files/hexns-octalns.html";
+            y.src = "Files/hexadecimal&octalnumbersystem.html";
             break;
         case 'octal':
-            y.src = "Files/hexns-octalns.html";
+            y.src = "Files/hexadecimal&octalnumbersystem.html";
             break;
         case 'conversion':
             y.src = "Files/conversion.html";
             break;
         case 'basic-geo':
-            y.src = "Files/basic-geo.html";
+            y.src = "Files/basicconceptsingeometry.html";
             break;
         case 'shapes':
             y.src = "Files/shapes.html";
@@ -122,7 +122,7 @@ function z(){
             y.src = "Files/measurements.html";
             break;
         case 'peri-area':
-            y.src = "Files/perimeter-area.html";
+            y.src = "Files/perimeterandarea.html";
             break;
         case 'angles':
             y.src = "Files/angles.html";
@@ -131,7 +131,7 @@ function z(){
             y.src = "Files/circles.html";
             break;
         case 'obj-nets':
-            y.src = "Files/3d-obj-net.html";
+            y.src = "Files/3dobjectsandnets.html";
             break;
         case 'triangles':
             y.src = "Files/triangles.html";
@@ -140,10 +140,10 @@ function z(){
             y.src = "Files/quadrilaterals.html";
             break;
         case 'para-lines':
-            y.src = "Files/para-lines.html";
+            y.src = "Files/parallellines&transversals.html";
             break;
         case 'co-ordinate-geo':
-            y.src = "Files/coordinate-geo.html";
+            y.src = "Files/coordinategeometry.html";
             break;
         case 'mensuration':
             y.src = "Files/mensuration.html";
@@ -152,34 +152,34 @@ function z(){
             y.src = "Files/trigonometry.html";
             break;
         case 'str-lines':
-            y.src = "Files/str-lines.html";
+            y.src = "Files/straightlines.html";
             break;
         case 'conic':
-            y.src = "Files/conic-sections.html";
+            y.src = "Files/conicsections.html";
             break;
         case 'pstr-lines':
-            y.src = "Files/pstr-lines.html";
+            y.src = "Files/pairofstraightlines.html";
             break;
         case 'basic-alg':
-            y.src = "Files/basic-alg.html";
+            y.src = "Files/basicalgebra.html";
             break;
         case 'poly':
             y.src = "Files/polynomials.html";
             break;
         case 'eq-one':
-            y.src = "Files/eqone.html";
+            y.src = "Files/equationinonevariable.html";
             break;
         case 'leq-two':
-            y.src = "Files/leqtwo.html";
+            y.src = "Files/linearequationintwovariable.html";
             break;
         case 'sets':
-            y.src = "Files/sets.html";
+            y.src = "Files/sets&relations.html";
             break;
         case 'series':
-            y.src = "Files/series.html";
+            y.src = "Files/sequence&series.html";
             break;
         case 'permu-combi':
-            y.src = "Files/permu-combi.html";
+            y.src = "Files/permutation&combination.html";
             break;
         case 'determinants':
             y.src = "Files/determinants.html";
@@ -188,22 +188,22 @@ function z(){
             y.src = "Files/matrices.html";
             break;
         case 'eq':
-            y.src = "Files/eq.html";
+            y.src = "Files/equations.html";
             break;
         case 'prof-loss':
-            y.src = "Files/prof-loss.html";
+            y.src = "Files/profitloss.html";
             break;
         case 'banks-si':
-            y.src = "Files/banks-si.html";
+            y.src = "Files/banks&simpleinterest.html";
             break;
         case 'disc-comm':
-            y.src = "Files/disc-comm.html";
+            y.src = "Files/discount&commission.html";
             break;
         case 'ci':
-            y.src = "Files/ci.html";
+            y.src = "Files/compoundinterest.html";
             break;
         case 'f-plan':
-            y.src = "Files/f-plan.html";
+            y.src = "Files/financialplanning.html";
             break;
         case 'func':
             y.src = "Files/functions.html";
@@ -221,55 +221,55 @@ function z(){
             y.src = "Files/integration.html";
             break;
         case 'pictographs':
-            y.src = "Files/picto-pattern.html";
+            y.src = "Files/pictographs&patterns.html";
             break;
         case 'patterns':
-            y.src = "Files/picto-pattern.html";
+            y.src = "Files/pictographs&patterns.html";
             break;
         case 'graphs':
             y.src = "Files/graphs.html";
             break;
         case 'stats':
-            y.src = "Files/stats.html";
+            y.src = "Files/statistics4.html";
             break;
         case 'mod':
-            y.src = "Files/mod.html";
+            y.src = "Files/measuresofdispersion.html";
             break;
         case 'probability':
             y.src = "Files/probability.html";
             break;
         case 'm-logic':
-            y.src = "Files/m-logic.html";
+            y.src = "Files/mathematicallogic.html";
             break;
         case 'p-distribution':
-            y.src = "Files/p-distribution.html";
+            y.src = "Files/probabilitydistribution.html";
             break;
         case 'b-distribution':
-            y.src = "Files/b-distribution.html";
+            y.src = "Files/binomialdistribution.html";
             break;
         case 'moi':
-            y.src = "Files/moi.html";
+            y.src = "Files/methodofinduction&binomialtheorem.html";
             break;
         case 'bt':
-            y.src = "Files/bt.html";
+            y.src = "Files/methodofinduction&binomialtheorem.html";
             break;
         case 'vectors':
             y.src = "Files/vectors.html";
             break;
         case 'line-plane':
-            y.src = "Files/line-plane.html";
+            y.src = "Files/lineandplane.html";
             break;
         case 'differential-eq':
-            y.src = "Files/diff-eq.html";
+            y.src = "Files/differentialequations.html";
             break;
         case 'lpp':
-            y.src = "Files/lpp.html";
+            y.src = "Files/linearprogramming.html";
             break;
         case 'basics':
             y.src = "Files/basics.html";
             break;
         case 'ns':
-            y.src = "Files/number-systems.html";
+            y.src = "Files/numbersystems.html";
             break;
         case 'geometry':
             y.src = "Files/geometry.html";
@@ -293,7 +293,7 @@ function z(){
             y.src = "Files/physics.html";
             break;
         case 'other':
-            y.src = "Files/others.html";
+            y.src = "Files/linearprogramming.html";
             break;
     }
 }

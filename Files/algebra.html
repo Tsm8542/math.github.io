@@ -16,45 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/89.jpg">
-    <img src="Main/90.jpg">
-    <img src="Main/91.jpg">
-    <img src="Main/92.jpg">
-    <img src="Main/93.jpg">
-    <img src="Main/94.jpg">
-    <img src="Main/95.jpg">
-    <img src="Main/96.jpg">
-    <img src="Main/97.jpg">
-    <img src="Main/98.jpg">
-    <img src="Main/99.jpg">
-    <img src="Main/100.jpg">
-    <img src="Main/101.jpg">
-    <img src="Main/102.jpg">
-    <img src="Main/103.jpg">
-    <img src="Main/104.jpg">
-    <img src="Main/105.jpg">
-    <img src="Main/106.jpg">
-    <img src="Main/107.jpg">
-    <img src="Main/108.jpg">
-    <img src="Main/109.jpg">
-    <img src="Main/110.jpg">
-    <img src="Main/111.jpg">
-    <img src="Main/112.jpg">
-    <img src="Main/113.jpg">
-    <img src="Main/114.jpg">
-    <img src="Main/115.jpg">
-    <img src="Main/116.jpg">
-    <img src="Main/117.jpg">
-    <img src="Main/118.jpg">
-    <img src="Main/119.jpg">
-    <img src="Main/120.jpg">
-    <img src="Main/121.jpg">
-    <img src="Main/122.jpg">
-    <img src="Main/123.jpg">
-    <img src="Main/124.jpg">
-    <img src="Main/125.jpg">
-    <img src="Main/126.jpg">
-    <img src="Main/127.jpg">
+<script>
+    function x(){
+        for(let i=88;i<=126;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>

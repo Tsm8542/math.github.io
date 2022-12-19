@@ -16,19 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/152.jpg">
-    <img src="Main/153.jpg">
-    <img src="Main/154.jpg">
-    <img src="Main/155.jpg">
-    <img src="Main/156.jpg">
-    <img src="Main/157.jpg">
-    <img src="Main/158.jpg">
-    <img src="Main/159.jpg">
-    <img src="Main/160.jpg">
-    <img src="Main/161.jpg">
-    <img src="Main/162.jpg">
-    <img src="Main/163.jpg">
-    <img src="Main/164.jpg">
+<script>
+    function x(){
+        for(let i=151;i<=163;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>

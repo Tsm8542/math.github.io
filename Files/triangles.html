@@ -16,15 +16,14 @@
         }
 }
 </style>
-<body>
-    <img src="Main/47.jpg">
-    <img src="Main/48.jpg">
-    <img src="Main/49.jpg">
-    <img src="Main/50.jpg">
-    <img src="Main/51.jpg">
-    <img src="Main/52.jpg">
-    <img src="Main/53.jpg">
-    <img src="Main/54.jpg">
-    <img src="Main/55.jpg">
+<script>
+    function x(){
+        for(let i=46;i<=54;i++){
+            let x = '<img src="Main/'+i+'.jpg">';
+            document.querySelector("body").innerHTML+=x;
+        }
+    }
+</script>
+<body onload="x()">
 </body>
 </html>
